@@ -1,0 +1,42 @@
+
+****************************************************************************************************************************
+This is the source codes package for the paper "A new validity index of feature subset for evaluating the dimensionality reduction algorithms", this package can be download at "ftp://nepsnet.com:25602/".
+
+This version 1.0 dated 12 Aug 2016
+Contact us: mrliuchuan@foxmail.com
+**************************************************************************************************************************
+
+The following algorithms are implemented:
+* CBC
+* SVM
+* LW index
+* Davies Bouldin Index
+* Silhouette index
+* Dunn Index and its variants
+* Ball and Hall index
+* Xu-index
+* CH index
+* Hartigan index
+* WB-index
+
+
+To use:
+
+1. Unpack the Datasets.rar which can be download at "ftp://nepsnet.com:25602/"
+
+2. For the testing of NEWSGROUPS and REUTERS set, put it into the folder: ".\DataMiningSample\LW\orginSample"; for the rest of datasets, put it into the folder: ".\DataMiningSample\LW\0_StemedSample",and meanwhile keep the folder ".\DataMiningSample\LW\orginSample" empty, since the samples in these datasets have been preprocessed.
+
+3. Run the main function in the file "LWindex.java"
+
+4. The results will put into the folder: ".\DataMiningSample\LW" after the procedures finished.
+The results in the folder: ".\DataMiningSample\LW\0_outputfile_1" is for Information Gain (IG) feature selection algorithm;
+The results in the folder: ".\DataMiningSample\LW\0_outputfile_2" is for Chi-Square (CS) feature selection algorithm;
+The results in the folder: ".\DataMiningSample\LW\0_outputfile_3" is for Mutual Information (MI) feature selection algorithm;
+The results in the folder: ".\DataMiningSample\LW\0_outputfile_4" is for Cross Entropy (CE) feature selection algorithm;
+The results in the folder: ".\DataMiningSample\LW\0_outputfile_5" is for random feature selection algorithm as described in our paper;
+
+****************************************************************************************************************************
+
+
+
+
